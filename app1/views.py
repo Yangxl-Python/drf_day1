@@ -6,6 +6,9 @@ from django.views import View
 from django.views.decorators.csrf import csrf_exempt
 from rest_framework.response import Response
 from rest_framework.views import APIView
+from rest_framework.renderers import JSONRenderer
+from rest_framework.parsers import JSONParser, MultiPartParser, FormParser
+from rest_framework import settings
 
 from app1.models import User
 
@@ -92,6 +95,10 @@ class UserView(View):
 
 
 class UserAPIView(APIView):
+
+    # 局部渲染器
+    # renderer_classes = (JSONRenderer, )
+
     def get(self, request, *args, **kwargs):
         user_id = kwargs.get('pk')
         if user_id:
@@ -184,3 +191,22 @@ class UserAPIView(APIView):
             'status': 500,
             'message': '删除失败'
         })
+
+
+class StudentAPIView(APIView):
+
+    # 局部解析器
+    parser_classes = (JSONParser,
+                      MultiPartParser,
+                      FormParser)
+
+    def get(self, request, *args, **kwargs):
+        stu_id = kwargs.get('pk')
+
+
+
+    def post(self, request, *args, **kwargs):
+        print('post方法')
+        print(request.data)
+
+        return Response('success')

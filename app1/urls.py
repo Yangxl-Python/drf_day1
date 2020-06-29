@@ -9,4 +9,7 @@ urlpatterns = [
 
     path('api_user/', views.UserAPIView.as_view()),
     path('api_user/<pk>/', views.UserAPIView.as_view()),
+
+    path('stu/', views.StudentAPIView.as_view()),
+    path('stu/<pk>/', views.StudentAPIView.as_view()),
 ]

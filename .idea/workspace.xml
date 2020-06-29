@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2709280c-ef5e-471f-b32b-9107b47e877c" name="Default Changelist" comment="" />
+    <list default="true" id="2709280c-ef5e-471f-b32b-9107b47e877c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/migrations/0002_student.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/pic/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3e7774e9-f7f0-48ee-8677-0ec5a96b9bcc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/77df1a92-27cd-4241-9e7b-c280a7473dc3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/77df1a92-27cd-4241-9e7b-c280a7473dc3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app1/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/app1/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app1/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app1/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drf_day1/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/drf_day1/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drf_day1/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/drf_day1/urls.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,7 +71,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1dvmK9swHxltWDyaduklMAiRUnP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -66,7 +84,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="ignore_missing_gitignore" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/media/pic" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\python\web_develop\Djangofiles\DRF_projects\drf_day1\media\pic" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="drf_day1" type="Python.DjangoServer" factoryName="Django server">
@@ -118,6 +145,9 @@
       <updated>1593313874899</updated>
       <workItem from="1593313877661" duration="3167000" />
       <workItem from="1593324407051" duration="13893000" />
+      <workItem from="1593391149970" duration="1183000" />
+      <workItem from="1593395991845" duration="6984000" />
+      <workItem from="1593410710427" duration="15851000" />
     </task>
     <servers />
   </component>
@@ -125,25 +155,33 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1193" height="182" key="GridCell.Tab.0.bottom" timestamp="1593341061108">
+    <state width="1193" height="182" key="GridCell.Tab.0.bottom" timestamp="1593426020455">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1193" height="182" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593341061108" />
-    <state width="1193" height="182" key="GridCell.Tab.0.center" timestamp="1593341061108">
+    <state width="1193" height="182" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593426020455" />
+    <state width="1193" height="182" key="GridCell.Tab.0.center" timestamp="1593426020455">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1193" height="182" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593341061108" />
-    <state width="1193" height="182" key="GridCell.Tab.0.left" timestamp="1593341061108">
+    <state width="1193" height="182" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593426020455" />
+    <state width="1193" height="182" key="GridCell.Tab.0.left" timestamp="1593426020455">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1193" height="182" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593341061108" />
-    <state width="1193" height="182" key="GridCell.Tab.0.right" timestamp="1593341061108">
+    <state width="1193" height="182" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593426020455" />
+    <state width="1193" height="182" key="GridCell.Tab.0.right" timestamp="1593426020455">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1193" height="182" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593341061108" />
+    <state width="1193" height="182" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593426020455" />
     <state width="220" height="477" key="HiddenNamespacesPopup" timestamp="1593324498512">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="220" height="477" key="HiddenNamespacesPopup/0.0.1920.1040@0.0.1920.1040" timestamp="1593324498512" />
+    <state x="129" y="314" key="SettingsEditor" timestamp="1593424385206">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="129" y="314" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1593424385206" />
+    <state x="421" y="587" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593424316164">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="421" y="587" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1593424316164" />
   </component>
 </project>
